@@ -51,7 +51,7 @@ export default function ChatInterface() {
   return (
     <div className="flex flex-col h-screen max-h-screen">
       <header className="border-b p-4 flex items-center justify-between">
-        <h1 className="text-xl font-bold">AI Chat Assistant</h1>
+        <h1 className="text-xl font-bold">Facade</h1>
         <div className="flex items-center gap-2">
           <Button variant="outline" size="icon" onClick={() => setShowSettings(!showSettings)}>
             <Settings className="h-4 w-4" />
@@ -72,7 +72,7 @@ export default function ChatInterface() {
         {messages.length === 0 ? (
           <div className="flex items-center justify-center h-full">
             <div className="max-w-md text-center space-y-4">
-              <h2 className="text-2xl font-bold">Welcome to AI Chat</h2>
+              <h2 className="text-2xl font-bold">Welcome to Facade</h2>
               <p className="text-muted-foreground">
                 Start a conversation with the AI assistant. You can switch between different models using the settings
                 button.

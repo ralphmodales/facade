@@ -6,8 +6,8 @@ import { Toaster } from "@/components/ui/sonner"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "AI Chat Interface",
-  description: "A ChatGPT-style interface for interacting with AI models",
+  title: "Facade",
+  description: "",
 }
 
 export default function RootLayout({
